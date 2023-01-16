@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Haukai Restaurant </title>
+    <link rel='stylesheet' type='text/css' href='./style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&family=Tiro+Telugu&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="sub-header">
+    <nav>
+        <a href="home.html"><img src="./images/logo.png" alt="logo" class="responsive"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./home.html">HOME</a></li>
+                    <li><a href="./hours.html">HOURS</a></li>
+                    <li><a href="./menu.html">MENU</a></li>
+                    <li><a href="./reservations.html">RESERVATIONS</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+        </div>  
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+		
+    <h1>~ "Nau te rourou, naku te rourou, ka ora te manuhiri."</h1>
+    <h2>("With your food basket and my food basket the people will thrive")</h2>
+</div>
+
+<div class="page-content">
+    <h3>MENU</h3>
+    <br>
+    <div class="food-row">
+        <div class="food-col">
+            <h3>Appetizers</h3>
+            <img src="./images/raw-fish.jpg" alt="Raw Fish" class="responsive">
+              <ul>
+                <li><span class="food">RAWENA BREAD 10</span><br>Traditional Ma&omacr;ri bread.</li>
+                <li><span class="food">PAUA FRITTER 16</span><br>Finely diced pieces of paua, served with a side salad and horopito dressing.</li>
+                <li><span class="food">RAW FISH 20</span><br>Dried snapper fish marinated in coconut cream, served with tomatoes and spring onions.</li>
+                <li><span class="food">POACHED SALMON 22</span><br>Salmon poached in an orange and pistachio glaze, served with rewena bread.</li>
+                <li><span class="food">SEAFOOD BASKET 25</span><br>Crumbed mussels, salt and pepper squid, crumbed hoki bites and garlic prawns</li>
+              </ul>
+        </div>
+        <div class="food-col">
+            <h3>Main</h3>
+            <img src="./images/lambsteak.jpg" alt="Lamb Steak" class="responsive">
+              <ul>
+                <li><span class="food">FISH OF THE DAY 25</span><br>Beer-battered fish and kumara fries, served with a side salad and homemade tartare.</li>
+                <li><span class="food">MUSSELS AND SCALLOPS 25</span><br>Steamed mussel & scallop mousse, honey and soy broth.</li>
+                <li><span class="food">SEAFOOD CHOWDER 30</span><br>Creamy chowder filled with tarakihi, prawn, hoki, scallops and mussels, served with flatbread.</li>
+                <li><span class="food">PORK BELLY 30</span><br>Slow-cooked pork belly served on a bed of apple slaw with roasted kumara and crispy noodles.</li>
+                <li><span class="food">LAMB STEAK 33</span><br>New Zealand lamb coated in a kawakawa crumb, served with Dijon-mustard-glazed carrots, roasted butternut squash and mushroom jus.</li>
+                <li><span class="food">VENISON 33</span><br>Venison crusted with Horopito, served with glazed plums, cabbage salad and red wine jus.</li>
+              </ul>
+        </div>
+        <div class="food-col">
+            <h3>Dessert</h3>
+            <img src="./images/pavlova.jpg" alt="Pavlova" class="responsive">
+              <ul>
+                <li><span class="food">KAPITI ICE CREAM 10</span><br>Check for daily specials.</li>
+                <li><span class="food">STEAMED PUDDING 12</span><br>Golden-syrup-flavoured steamed pudding, served with vanilla ice cream.</li>
+                <li><span class="food">MINI PAVLOVA 16</span><br>Mini pavlova, served with kawakawa and lemon-infused cream and fresh fruit.</li>
+                <li><span class="food">BANOFFEE PIE 16</span><br>Toffee, fresh bananas and fresh cream.</li>
+              </ul>
+        </div>
+    </div>
+    <br><hr>
+    <h3>BEVERAGES</h3>
+    <br>
+    <img src="images/bev.jpg" alt="Beveranges" class="responsive"><br>
+    <div class="bev-row">
+        <div class="bev-col-main"> 
+            <div class="bev-col">
+                <div class="bev-col-1">
+                    <h3>RED WINE</h3>
+                    Terrace Edge Pinot Noir, 2012, Wairarapa<br>
+                    Altitude Pinot Noir, 2010, Marlborough<br>
+                    Greystone Pinot Noir, 2012, Wairarapa<br>
+                    Altitude Syrah, 2010, Marlborough<br>
+                    Pegasus Bay Merlot, 2013, Waipara<br>
+                    Pegasus Bay Pinot Noir, 2013, Waipara
+                </div>
+                <div class="bev-col-2">
+                    <h3>B/G</h3>
+                    53/13<br>
+                    64/15<br>
+                    73/17<br>
+                    64/15<br>
+                    65/14<br>
+                    110
+                </div>
+            </div>
+            <div class="bev-col">
+                <div class="bev-col-1">
+                    <h3>WHITE WINE</h3>
+                    Spade Oak Pinot Gris, 2011, Gisborne<br>
+                    Maude Pinot Gris, 2017, Otago<br>
+                    Charles Wiffen Chardonnay, 2013, Otago<br>
+                    Amisfield, Riesling, 2016, Otago <br>
+                    Lamont Riesling, 2010, Otago<br>
+                    Elephant Hill Viognier, 2013, Hawke’s Bay<br>
+                    Folium Sauvignon Blanc, 2011, Marlborough<br>
+                    Billecart-Salmon Brut Reserve, France<br>
+                </div>
+                <div class="bev-col-2">
+                    <h3>B/G</h3>
+                    40/10<br>
+                    49.50/11<br>
+                    48/11<br>
+                    53/12<br>
+                    57/13<br>
+                    55/12<br>
+                    52/11<br>
+                    120
+                </div>
+            </div>
+        </div>
+        <div class="bev-col-main-2">
+            <div class="bev-col">
+                <h3>BEER AND CIDER</h3>
+                <div class="bev-col-1">
+                    Garage project range<br>
+                    Tuatara range<br>
+                    Panhead range<br>
+                    Coopers ale<br>
+                    Heineken<br>
+                    Moa cider<br>
+                    Crooked cider
+                </div>
+                <div class="bev-col-2">
+                    11<br>
+                    11<br>
+                    10<br>
+                    10<br>
+                    11<br>
+                    10<br>
+                    10<br>
+                </div>        
+            </div>
+            <div class="bev-col">
+                <h3>NON-ALCOHOLIC</h3>
+                <div class="bev-col-1">
+                    Mineral water<br>
+                    Soft drinks<br>
+                    Juice<br>
+                    Coffee<br>
+                    Tea<br>
+                </div>
+                <div class="bev-col-2">
+                    4<br>
+                    4<br>
+                    4<br>
+                    4.5<br>
+                    3.5<br>
+                </div>     
+            </div> 
+        </div>
+    </div><br>
+    <a href="menu.pdf" target="_blank">To download the Menu please click HERE</a>
+</div>
+
+<div class="footer">
+    <hr>    
+    <i class="fa fa-cutlery"></i>&nbsp;THE HAUKAI RESTAURANT<br>
+    <i class="fa fa-map-signs"></i>&nbsp; Address: 1 Island Street Keirikeri, Bay of Islands, New Zealand<br>
+    <i class="fa fa-phone"></i>&nbsp;Phone: (09)401 4019<br> 
+    <i class="fas fa-thumbs-up"></i> Follow us on
+    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook fa-2x"></i></a>
+    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a><br>
+    <i class="fa-solid fa-face-grin-beam"></i> Website made by: Renei Dula <i class="fa-solid fa-face-grin-beam"></i><br>
+</div>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+</script>
+    
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Haukai Restaurant </title>
+    <link rel='stylesheet' type='text/css' href='./style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&family=Tiro+Telugu&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="sub-header">
+    <nav>
+        <a href="home.html"><img src="./images/logo.png" alt="logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./home.html">HOME</a></li>
+                    <li><a href="./hours.html">HOURS</a></li>
+                    <li><a href="./menu.html">MENU</a></li>
+                    <li><a href="./reservations.html">RESERVATIONS</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+        </div>  
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+  
+        <h1>~ Haora Mahi (Operating Hours) ~</h1>
+        <input class="set-today" type="date">
+        <h2>Wednesday - Sunday<br>6pm-Midnight</h2>
+</div>
+<div class="page-content">
+	<div class id="notice">! IMPORTANT NOTICE !<br>
+		We'll be closed on 02 February 2023 for some renovation works. Thank you for your understanding!
+	</div>
+    <h3>Staff Login</h3>
+    <label for="login">Username:</label>
+        <input type="text" id="login" name="login" required>
+    <br><br>
+    <label for="password">Password: </label>
+        <input type="text" id="password" name="password" required>
+    <br>
+    <br>
+    <button class="button">Login</button>
+    
+</div>
+    <br>
+<div class="footer">
+    <hr>    
+    <i class="fa fa-cutlery"></i>&nbsp;THE HAUKAI RESTAURANT<br>
+    <i class="fa fa-map-signs"></i>&nbsp; Address: 1 Island Street Keirikeri, Bay of Islands, New Zealand<br>
+    <i class="fa fa-phone"></i>&nbsp;Phone: (09)401 4019<br> 
+    <i class="fas fa-thumbs-up"></i> Follow us on
+    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook fa-2x"></i></a>
+    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a><br>
+    <i class="fa-solid fa-face-grin-beam"></i> Website made by: Renei Dula <i class="fa-solid fa-face-grin-beam"></i><br>
+</div>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+</script>
+    
+</body>
+</html>
